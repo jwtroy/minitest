@@ -1,8 +1,0 @@
-version: '2'
-services:
-  center1:
-    image: "registry.cn-hangzhou.aliyuncs.com/lanxy88/{project.name}:{project.version}"
-    ports:
-     - "8100:8000"
-    volumes:
-     - "/app/{project.name}/{project.version}"
