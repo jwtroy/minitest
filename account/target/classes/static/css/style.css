@@ -1,0 +1,223 @@
+/* remove codrops styles and reset the whole thing */
+#container_demo {
+    width: 39%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    font-family: "Microsoft YaHei"
+}
+
+#wrapper {
+    /*width: 60%;*/
+    right: 0px;
+    min-height: 560px;
+    margin: 0px auto;
+    width: 372px;
+    position: relative;
+}
+
+#wrapper a {
+    color: rgb(95, 155, 198);
+    text-decoration: underline;
+}
+
+#wrapper h1 {
+    padding-left: 20px;
+    padding-top: 2px;
+    font-size: 21px;
+    color: #666666;
+    font-family: 'FranchiseRegular', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+input {
+    outline: none;
+}
+
+#wrapper p.button input {
+    margin-top: 10px;
+    border: 0px;
+    height: 55px;
+    width: 340px;
+    cursor: pointer;
+    background: rgb(9, 156, 229);
+    color: #ffffff;
+    font-size: 19px;
+}
+
+#wrapper p.button input:hover {
+    background: rgb(74, 179, 198);
+}
+
+#wrapper p.button input:active,
+#wrapper p.button input:focus {
+    background: rgb(40, 137, 154);
+    position: relative;
+    top: 1px;
+    border: 1px solid rgb(12, 76, 87);
+    -webkit-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.2) inset;
+}
+
+p.login.button,
+p.signin.button {
+    text-align: right;
+    margin: 5px 0;
+    margin-right: -7px;
+}
+
+/* styling the checkbox "keep me logged in"*/
+.keeplogin {
+    margin-top: -5px;
+}
+
+.keeplogin input,
+.keeplogin label {
+    display: inline-block;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.keeplogin input#loginkeeping3 {
+    margin-right: 5px;
+}
+
+.keeplogin label {
+    width: 20%;
+}
+
+#login {
+    position: absolute;
+    top: 0px;
+    padding: 18px 16px 48px 16px;
+    margin: 0 0 35px 0;
+    background: rgb(235, 247, 249);
+    z-index: 22;
+}
+
+.loginOtherSys {
+    display: none;
+}
+/*连云港*/
+#container_demoLyg {
+    position: absolute;
+    top: 310px;
+    width: 100%;
+    left: 142px;
+    float: left;
+    padding: 0;
+    margin: 0 auto;
+    font-family: "Microsoft YaHei"
+}
+@media only screen and (min-width: 1359px) and (max-width: 1365px) {
+    :root{
+        --Input框高度: -150px;
+        --Input框缩放: 0.7;
+    }
+}
+@media only screen and (min-width: 1365px) and (max-width: 1399px) {
+    :root{
+        --Input框高度: -135px;
+        --Input框缩放: 0.75;
+    }
+}
+@media only screen and (min-width: 1399px) and (max-width: 1439px) {
+    :root{
+        --Input框高度: 0px;
+        --Input框缩放: 1;
+    }
+}
+@media only screen and (min-width: 1439px) and (max-width: 1599px) {
+    :root{
+        --Input框高度: -40px;
+        --Input框缩放: 0.8;
+    }
+}
+@media only screen and (min-width: 1599px) and (max-width: 1679px) {
+    :root{
+        --Input框高度: -55px;
+        --Input框缩放: 0.8;
+    }
+}
+@media only screen and (min-width: 1679px) and (max-width: 1918px) {
+    :root{
+        --Input框高度: -30px;
+        --Input框缩放: 0.9;
+    }
+}
+@media only screen and (min-width: 1920px) {
+    :root{
+        --Input框高度: 0px;
+        --Input框缩放: 1;
+    }
+}
+#loginLyg {
+    position: absolute;
+    top: var(--Input框高度);
+    padding: 18px 16px 48px 16px;
+    margin: 0 0 35px 0;
+    z-index: 22;
+    zoom: var(--Input框缩放);
+}
+#wrapperLyg {
+    /*width: 60%;*/
+    right: 0px;
+    min-height: 560px;
+    margin: 0px auto;
+    width: 372px;
+    position: relative;
+}
+
+#wrapperLyg a {
+    color: rgb(95, 155, 198);
+    text-decoration: underline;
+}
+
+#wrapperLyg h1 {
+    padding-left: 20px;
+    padding-top: 2px;
+    font-size: 21px;
+    color: #099CE5;
+    font-family: 'FranchiseRegular', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+#wrapperLyg p.button input {
+    margin-top: 55px;
+    border: 0px;
+    height: 55px;
+    width: 445px;
+    cursor: pointer;
+    background: rgb(9, 156, 229);
+    color: #ffffff;
+    font-size: 19px;
+    border-radius: 6px;
+}
+
+#wrapperLyg p.button input:hover {
+    background: rgb(74, 179, 198);
+}
+
+#wrapperLyg p.button input:active,
+#wrapperLyg p.button input:focus {
+    background: rgb(40, 137, 154);
+    position: relative;
+    top: 1px;
+    border: 1px solid rgb(12, 76, 87);
+    -webkit-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.2) inset;
+}
+
+p.login.button,
+p.signin.button {
+    text-align: right;
+    margin: 5px 0;
+    margin-right: -7px;
+}

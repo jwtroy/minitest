@@ -1,0 +1,47 @@
+info:
+  name: ${spring.application.name}
+  component: Account Application
+
+app:
+  center: http://192.168.50.167:8000/eureka/
+  brand:
+    title: 国图大云统一授权认证中心
+    sub-title: The Unified Certification Authorization Center of GTMap Cloud Platform
+    logo: image/u44.png
+
+spring:
+  rabbitmq:
+    host: 192.168.0.21
+    port: 5672
+    username: test
+    password: test
+  datasource:
+    url: jdbc:mysql://192.168.0.21:3306/mecp?seUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: none
+#      ddl-auto: update
+#      ddl-auto: create
+    show-sql: true
+
+server:
+  port: ${port:8888}
+  context-path: /account
+  session:
+    timeout: 36000000
+
+regioncodeconfig:
+  regioncode: 320000
+  password: 981
+  resourceUi: resource-ui
+  mapUi: data-map
+
+
+logging:
+  level:
+    org.springframework: WARN
+    org.springframework.jdbc.core.JdbcTemplate: WARN
+    cn.gtmap.gtcc.account: DEBUG
+    org.hibernate: WARN
